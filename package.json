@@ -1,0 +1,35 @@
+{
+	"name": "abes",
+	"version": "0.1.0",
+	"description": "Arbitrary block length cipher and decipher class.",
+	"main": "abes.js",
+    "dependencies": {
+        "bitbuf": "^0.1.2",
+        "bitbufhash": "^0.1.1"
+	},
+	"scripts": {
+		"test": "node ./test/abes-test.js"
+	},
+	"engines": {
+		"node": ">=4.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rinne/node-abes.git"
+	},
+	"keywords": [
+		"encryption",
+		"cipher",
+		"bitwise"
+	],
+	"author": {
+		"name": "Timo J. Rinne",
+		"email": "tri@iki.fi",
+		"url": "https://github.com/rinne/"
+	},
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/rinne/node-abes/issues"
+	},
+	"homepage": "https://github.com/rinne/node-abes#readme"
+}
