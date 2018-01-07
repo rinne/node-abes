@@ -9,7 +9,7 @@ var Abes = function(key, blockLenBits, options) {
 		hashName: ((options &&
 					(typeof(options) === 'object') &&
 					options.hasOwnProperty('hashName') &&
-				   options.hashName) ?
+					options.hashName) ?
 				   options.hashName :
 				   'sha512'),
 		rounds: ((options &&

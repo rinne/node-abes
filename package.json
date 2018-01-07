@@ -4,8 +4,8 @@
 	"description": "Arbitrary block length cipher and decipher class.",
 	"main": "abes.js",
     "dependencies": {
-        "bitbuf": "^0.1.3",
-        "bitbufhash": "^0.1.3"
+        "bitbuf": "^0.1.4",
+        "bitbufhash": "^0.1.4"
 	},
 	"scripts": {
 		"test": "node ./test/abes-test.js"
