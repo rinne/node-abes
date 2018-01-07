@@ -1,6 +1,6 @@
 {
 	"name": "abes",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Arbitrary block length cipher and decipher class.",
 	"main": "abes.js",
     "dependencies": {
